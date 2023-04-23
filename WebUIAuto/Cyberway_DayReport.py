@@ -25,3 +25,7 @@ wd.find_element(By.XPATH, '//*[@id="ctl00_PageContent_rptWorkLog_ctl00_txtWeek5"
 # wd.find_element(By.XPATH, '//*[@id="ctl00_PageContent_rptWorkLog_ctl00_txtWeek6"]').send_keys(8)    #星期六
 # wd.find_element(By.XPATH, '//*[@id="ctl00_PageContent_rptWorkLog_ctl00_txtWeek7"]').send_keys(8)    #星期七
 sleep(1)
+wd.find_element(By.XPATH, '//*[@id="ctl00_PageContent_rptWorkLog_ctl00_txtRemark"]').send_keys("")  #备注
+sleep(1)
+wd.find_element(By.XPATH, '//*[@id="btnTempSave"]').click()    #暂存
+sleep(1)
