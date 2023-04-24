@@ -3,8 +3,8 @@ from email.mime.text import MIMEText
 from email.header import Header
 
 
-sender = "15119997815@163.com"   #设置发邮件者
-receivers = ["1550828916@qq.com"]   #设置收邮件者
+sender = ""   #设置发邮件者
+receivers = [""]   #设置收邮件者
 #第一个参数：邮件内容  第二个参数：邮件格式  第三个参数：邮件编码格式
 massage = MIMEText("Python 发送邮件测试....","plain", "UTF-8")
 #邮件三大头部信息
