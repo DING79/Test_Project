@@ -11,7 +11,7 @@ mail_pass = ""  #POP3/IMAP/SMTP授权码
 sender = ""   #设置发邮件者
 receivers = [""]   #设置收邮件者
 #第一个参数：邮件内容  第二个参数：邮件格式  第三个参数：邮件编码格式
-massage = MIMEText("Python 发送邮件测试....","plain", "UTF-8")
+massage = MIMEText("Python 发送邮件测试...","plain", "UTF-8")
 #邮件三大头部信息
 massage["From"] = Header(sender, "UTF-8")    #发件人
 massage["To"] = Header("测试", "UTF-8")    #收件人
